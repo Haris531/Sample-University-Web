@@ -1,0 +1,240 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(banner.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+nav img{
+    height: 50px;
+}
+.nav-menu{
+    margin-right: 60px;
+}
+.nav-menu a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 200;
+}
+.text-box{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-box h1{
+    font-family: arial;
+    font-size: 50px;
+    font-weight: 400;
+}
+.text-box p{
+    font-family: arial;
+    font-size: 17px;
+    font-weight: 200;
+}
+.text-box p span{
+    display: flex;
+    justify-content: center;
+   align-items: center;
+}
+.text-box a{
+    text-decoration: none;
+    border: 1px solid black;
+    height: 30px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    font-family: arial;
+}
+.text-box a:hover{
+    background-color: orangered;
+}
+.course{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.course h1{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 300;
+}
+.course p{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 200;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.row .colum{
+    width: 25%;
+    text-align: center;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+.colum h3{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 300;
+}
+.colum p{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 200;
+}
+.campus{
+   padding-top: 50px;
+    text-align: center;
+}
+.campus h1{
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 300;
+}
+.campus p{
+    font-family: arial;
+    font-size: 15px;
+    font-weight: 200;
+}
+.campus-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.campus-colm img{
+    width: 100%;
+    height: 70vh;
+}
+.facilities{
+    padding-top: 30px;
+     text-align: center;
+ }
+ .facilities h1{
+     font-family: arial;
+     font-size: 40px;
+     font-weight: 300;
+ }
+ .facilities p{
+     font-family: arial;
+     font-size: 15px;
+     font-weight: 200;
+ }
+ .facilities-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.facilities-colm img{
+    width: 70%;
+    height: 40vh;
+}
+.testemonial{
+    padding-top: 50px;
+     text-align: center;
+ }
+ .testemonial h1{
+     font-family: arial;
+     font-size: 40px;
+     font-weight: 300;
+ }
+ .testemonial p{
+     font-family: arial;
+     font-size: 15px;
+     font-weight: 200;
+ }
+ .testemonial-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ }
+ .testemonial-colm{
+    width: 35%;
+    background-color: antiquewhite;
+    text-align: left;
+    margin: 20px;
+ }
+ .testemonial-colm img{
+    height: 50px;
+    border-radius: 50%;   
+}
+.call{
+    background-image: url(banner2.jpg);
+    width: 80%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    margin-left: 150px;
+    margin-top: 100px;
+    text-align: center;
+}
+.call h1{
+    padding-top: 60px;
+    font-family: arial;
+    font-size: 40px;
+    font-weight: 300;
+}
+.call h1:hover{
+    color: orange;
+}
+.call button{
+    text-decoration: none;
+    border: none;
+    width: 180px;
+    height: 40px;
+    color: white;
+    background-color: black;
+}
+.call button:hover{
+    background-color: orangered;
+}
+.footer{
+    padding-top: 50px;
+     text-align: center;
+ }
+ .footer h1{
+     font-family: arial;
+     font-size: 30px;
+     font-weight: 300;
+ }
+ .footer p{
+     font-family: arial;
+     font-size: 15px;
+     font-weight: 200;
+ }
+ .footer h3{
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 300;
+}
